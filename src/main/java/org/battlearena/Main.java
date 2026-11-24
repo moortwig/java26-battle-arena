@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Main {
     static void main() {
-        new Game(
+        new BattleArena(
                 new Scanner(System.in),
                 new Setup()
         ).run();

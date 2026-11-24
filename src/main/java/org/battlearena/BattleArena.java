@@ -4,11 +4,11 @@ import org.battlearena.game.Setup;
 
 import java.util.Scanner;
 
-public class Game {
+public class BattleArena {
     private Scanner scanner;
     private Setup setup;
 
-    public Game(Scanner scanner, Setup setup) {
+    public BattleArena(Scanner scanner, Setup setup) {
         this.scanner = scanner;
         this.setup = setup;
     }
